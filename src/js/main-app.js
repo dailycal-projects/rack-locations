@@ -42,6 +42,13 @@ for (var i = 0; i < rackLocations.length; i++) {
         fillColor: '#f03',
         fillOpacity: 0.5,
         radius: 10
-    }).bindPopup(rack.Location)
-        .addTo(map);
+    }).addTo(map);
+
+    circle.bindPopup(rack.Location);
+    circle.on('mouseover', function (e) {
+        this.openPopup();
+    });
+    circle.on('mouseout', function (e) {
+        this.closePopup();
+    });
 }
