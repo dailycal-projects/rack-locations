@@ -1,6 +1,5 @@
 require('../scss/main.scss');
 const L = require('leaflet');
-// const fs = require('fs-extra');
 
 window.$('.icon-facebook').click((e) => {
   e.preventDefault();
@@ -37,12 +36,12 @@ L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
 
 const rackLocations = require('../data/rack_locations.json');
 for (var i = 0; i < rackLocations.length; i++) {
-    // console.log(rackLocations[i]);
     var rack = rackLocations[i];
     var circle = L.circle([rack.lat, rack.lon], {
         color: 'red',
         fillColor: '#f03',
         fillOpacity: 0.5,
         radius: 10
-    }).addTo(map);
+    }).bindPopup(rack.Location)
+        .addTo(map);
 }
