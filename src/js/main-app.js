@@ -44,11 +44,15 @@ for (var i = 0; i < rackLocations.length; i++) {
         radius: 10
     }).addTo(map);
 
-    circle.bindPopup(rack.Location);
+    circle.bindPopup(
+        "<img src=../images/sproul.jpg width=20px />" +
+        "<p>" + rack.Location + "<p>"
+    );
     circle.on('mouseover', function (e) {
         this.openPopup();
     });
     circle.on('mouseout', function (e) {
         this.closePopup();
     });
+    // https://stackoverflow.com/questions/10575765/show-image-in-leaflet-popup
 }
