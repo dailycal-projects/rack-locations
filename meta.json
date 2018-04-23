@@ -2,24 +2,25 @@
   "id": "25465334907",
   "publishPath": "2018/rack-locations/",
   "url": "http://projects.dailycal.org/2018/rack-locations/",
-  "timestamp": "2017-04-13T08:13-0400",
-  "dateline": "04/13/17 08:13 PM EDT",
+  "timestamp": "2018-04-23T00:00-0400",
+  "dateline": "04/23/18 00:00 PM PST",
   "share": {
     "fbook": {
-      "card_title": "rack-locations",
-      "card_description": "UC Berkeley's independent student-run newspaper"
+      "card_title": "The Daily Californian's rack locations",
+      "card_description": "Pick up a paper today at one of our 138 locations!"
     },
     "twitter": {
-      "card_title": "rack-locations",
-      "share_tweet": "UC Berkeley's independent student-run newspaper"
+      
+      "card_title": "The Daily Californian's rack locations",
+      "share_tweet": "Pick up a paper today at one of our 138 locations!"
     },
     "image": {
-      "url": "http://projects.dailycal.org/2018/rack-locations/images/share.jpg",
+      "url": "http://projects.dailycal.org/2018/rack-locations/images/share.png",
       "alt": "<Text>",
-      "type": "image/jpeg",
-      "width": "600",
-      "height": "300"
+      "type": "image/png",
+      "width": "1200",
+      "height": "600"
     },
-    "keywords": "Daily Cal, news"
+    "keywords": "Daily Cal, news, rack locations, print"
   }
 }

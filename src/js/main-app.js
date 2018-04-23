@@ -38,8 +38,8 @@ const rackLocations = require('../data/rack_locations.json');
 for (var i = 0; i < rackLocations.length; i++) {
     var rack = rackLocations[i];
     var circle = L.circle([rack.lat, rack.lon], {
-        color: 'red',
-        fillColor: '#f03',
+        color: '#142733',
+        fillColor: '#142733',
         fillOpacity: 0.5,
         radius: 10
     }).addTo(map);
